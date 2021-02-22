@@ -1,0 +1,29 @@
+.credits {
+    background-color: $colorLightBlack;
+    @include container;
+    padding: $padding-10;
+        .copyright {
+            @include flex(space-between);
+            .logo {
+                img {
+                    margin-right: $margin-20;
+                }
+            }
+            .copy {
+                @include flex(flex-start);
+                color: $colorWhite;
+                ul {
+                    li {
+                        margin-right: $margin-20;
+                        a {
+                            color: $colorGray;
+                            &:hover {
+                                color: $colorWhite;
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+}
