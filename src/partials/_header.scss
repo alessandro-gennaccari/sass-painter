@@ -2,36 +2,36 @@ header {
       background-color: $colorBlack;
       height: $headerHeight;
       @include container;
-      .#{&}-top {
-            height: $headerTopHeight;
-            nav {
-                  height: $heightFather;
-                  @include flex(flex-end);
-                  ul {
+            .#{&}-top {
+                  height: $headerTopHeight;
+                  nav {
                         height: $heightFather;
-                        @include flex();
-                        li {
-                              padding-right: $padding-30;
-                              a {
-                                    color: $colorGray;
-                                    &:hover {
-                                          color: $colorWhite;
-                                          text-decoration: underline;
+                        @include flex(flex-end);
+                        ul {
+                              height: $heightFather;
+                              @include flex();
+                              li {
+                                    padding-right: $padding-30;
+                                    a {
+                                          color: $colorGray;
+                                          &:hover {
+                                                color: $colorWhite;
+                                                text-decoration: underline;
+                                          }
+                                    }
+                                    i {
+                                          color: $colorOceanBlue;
+                                          padding-right: $padding-10;
                                     }
                               }
-                              i {
-                                    color: $colorOceanBlue;
-                                    padding-right: $padding-10;
-                              }
+                        }
+                        select {
+                              padding-right: $padding-10;
+                              border: $noBorder;
                         }
                   }
-                  select {
-                        padding-right: $padding-10;
-                        border: $noBorder;
-                  }
             }
-      }
-      .#{&}-bottom {
-            height: $headerBottomHeight;
-      }
+            .#{&}-bottom {
+                  height: $headerBottomHeight;
+            }
 }
