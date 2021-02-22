@@ -12,6 +12,7 @@
                 flex-basis: 33%;
                 padding: 0 $padding-10;
                 .relative {
+                    background-color: $colorWhite;
                     position: relative;
                     img {
                         width: $widthFather;
@@ -25,6 +26,7 @@
                     }
                 }
                 .content {
+                    background-color: $colorWhite;
                     padding: $padding-20;
                     span {
                         color: $colorOceanBlue;

@@ -202,6 +202,7 @@ header .header-bottom {
   padding: 0 10px;
 }
 #more .cards .card .relative {
+  background-color: #fff;
   position: relative;
 }
 #more .cards .card .relative img {
@@ -215,6 +216,7 @@ header .header-bottom {
   color: rgba(255, 255, 255, 0.6);
 }
 #more .cards .card .content {
+  background-color: #fff;
   padding: 20px;
 }
 #more .cards .card .content span {
