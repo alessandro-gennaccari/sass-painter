@@ -102,6 +102,36 @@ header .header-bottom {
   color: #fff;
 }
 
+.btn-bg-black {
+  padding: 10px 30px;
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #000;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: none;
+}
+.btn-bg-black:hover {
+  opacity: 0.85;
+}
+
+.btn-bg-none {
+  padding: 10px 30px;
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #000;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  color: #000;
+}
+.btn-bg-none:hover {
+  opacity: 0.85;
+}
+
 .jumbotron {
   background-image: url("../img/bg-painter-home.jpg");
   background-size: cover;
@@ -143,32 +173,107 @@ header .header-bottom {
   margin-right: 30px;
 }
 
-.btn-bg-black {
-  padding: 10px 30px;
-  background-color: #000;
-  color: #fff;
-  border: 2px solid #000;
-  font-size: 20px;
-  text-transform: uppercase;
-  cursor: pointer;
-  outline: none;
+footer .nav-footer {
+  background-color: #f1f1f1;
+  padding: 50px 0 30px 0;
 }
-.btn-bg-black:hover {
-  opacity: 0.85;
+footer .nav-footer .container {
+  max-width: 1300px;
+  margin: auto;
+}
+footer .nav-footer .nav-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+}
+footer .nav-footer .nav-list ul {
+  flex-basis: 25%;
+  padding-bottom: 30px;
+}
+footer .nav-footer .nav-list ul li {
+  padding-top: calc(5px);
+}
+footer .nav-footer .nav-list ul li:first-child {
+  margin-bottom: 10px;
+}
+footer .nav-footer .nav-list ul li:first-child span {
+  font-size: 16px;
+}
+footer .nav-footer .nav-list ul li a {
+  color: #353535;
+}
+footer .nav-footer .nav-list ul li a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+footer .nav-footer .social {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+}
+footer .nav-footer .social span {
+  margin-right: 20px;
+  height: 35px;
+  width: 35px;
+  line-height: 35px;
+  text-align: center;
+}
+footer .nav-footer .social span a {
+  font-size: 20px;
+  color: #fff;
+}
+footer .nav-footer .social span.instagram {
+  background-color: #e4405f;
+}
+footer .nav-footer .social span.facebook {
+  background-color: #3b5998;
+}
+footer .nav-footer .social span.twitter {
+  background-color: #1da1f2;
+}
+footer .nav-footer .social span.youtube {
+  background-color: #cd201f;
+}
+footer .nav-footer .social span.pintarest {
+  background-color: #bd081c;
+}
+footer .nav-footer .social span.rss {
+  background-color: #ff8d00;
 }
 
-.btn-bg-none {
-  padding: 10px 30px;
-  background-color: #000;
-  color: #fff;
-  border: 2px solid #000;
-  font-size: 20px;
-  text-transform: uppercase;
-  cursor: pointer;
-  outline: none;
-  background-color: transparent;
-  color: #000;
+.credits {
+  background-color: #1e1e1e;
+  padding: 10px;
 }
-.btn-bg-none:hover {
-  opacity: 0.85;
+.credits .container {
+  max-width: 1300px;
+  margin: auto;
+}
+.credits .copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.credits .copyright .logo img {
+  margin-right: 20px;
+}
+.credits .copyright .copy {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  color: #fff;
+}
+.credits .copyright .copy ul li {
+  margin-right: 20px;
+}
+.credits .copyright .copy ul li a {
+  color: #989898;
+}
+.credits .copyright .copy ul li a:hover {
+  color: #fff;
+  text-decoration: underline;
 }

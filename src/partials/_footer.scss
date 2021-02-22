@@ -1,0 +1,62 @@
+footer {
+    .nav-footer {
+        background-color: $coloLightGray;
+        @include container;
+        padding: $padding-50 0 $padding-30 0;
+        .nav-list {
+            @include flex(flex-start, flex-start);
+            ul {
+                flex-basis: 25%;
+                li  {
+                    padding-top: calc(#{$padding-10 / 2});
+                    &:first-child {
+                        margin-bottom: $margin-10;
+                        span {
+                            font-size: 16px;
+                        }
+                    }
+                    a {
+                        color: $colorDarkGray;
+                        &:hover {
+                            color: $colorBlack;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+                padding-bottom: $padding-30;
+            }
+        }
+        .social {
+            @include flex(flex-end);
+            span {
+                margin-right: $margin-20;
+                height: 35px;
+                width: 35px;
+                line-height: 35px;
+                text-align: center;
+                a {
+                    font-size: 20px;
+                    color: $colorWhite;
+                }
+                &.instagram {
+                    background-color: $colorInstagram;
+                }
+                &.facebook {
+                    background-color: $colorFacebook;
+                }
+                &.twitter {
+                    background-color: $colorTwitter;
+                }
+                &.youtube {
+                    background-color: $colorYoutube;
+                }
+                &.pintarest {
+                    background-color: $colorPinterest;
+                }
+                &.rss {
+                    background-color: $colorRss;
+                }
+            }
+        }
+    }
+}
