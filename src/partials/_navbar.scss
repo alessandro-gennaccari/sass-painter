@@ -1,0 +1,30 @@
+.navbar {
+    height: $heightFather;
+    @include flex(flex-start);
+    img {
+        padding: 0 $padding-30 0 0;
+        height: $navbarImgHeight;
+        margin-bottom: $margin-10;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    ul {
+        @include flex(flex-start);
+        li {
+            padding: 0 $padding-30;
+            line-height: $headerBottomHeight;
+            &:hover {
+                background-color: $coloLightGray;
+                cursor: pointer;
+                a {
+                    color: $colorBlack;
+                }
+            }
+            a {
+                font-size: 14px;
+                color: $colorWhite;
+            }
+        }
+    }
+}

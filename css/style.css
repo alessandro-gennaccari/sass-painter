@@ -1,1 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-size: 13px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: #000;
+  height: 100px;
+}
+header .container {
+  max-width: 1300px;
+  margin: auto;
+}
+header .header-top {
+  height: 45px;
+}
+header .header-top nav {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+}
+header .header-top nav ul {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+header .header-top nav ul li {
+  padding-right: 30px;
+}
+header .header-top nav ul li a {
+  color: #989898;
+}
+header .header-top nav ul li a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+header .header-top nav ul li i {
+  color: #009cff;
+  padding-right: 10px;
+}
+header .header-top nav select {
+  padding-right: 10px;
+  border: none;
+}
+header .header-bottom {
+  height: calc(100px - 45px);
+}
+
+.navbar {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+.navbar img {
+  padding: 0 30px 0 0;
+  height: 30px;
+  margin-bottom: 10px;
+}
+.navbar img:hover {
+  cursor: pointer;
+}
+.navbar ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+.navbar ul li {
+  padding: 0 30px;
+  line-height: calc(100px - 45px);
+}
+.navbar ul li:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+.navbar ul li:hover a {
+  color: #000;
+}
+.navbar ul li a {
+  font-size: 14px;
+  color: #fff;
+}

@@ -1,0 +1,30 @@
+//Colors
+
+$colorBlack: #000;
+$colorGray: #989898;
+$coloLightGray: #f1f1f1;
+$colorOceanBlue: #009cff;
+$colorWhite: #fff;
+
+
+// Height - Width
+
+$heightFather: 100%;
+$headerHeight: 100px;
+$headerTopHeight: 45px;
+$headerBottomHeight: calc(#{$headerHeight} - #{$headerTopHeight});
+
+$navbarImgHeight: 30px;
+
+
+// Padding - Margin
+
+$padding-10: 10px;
+$padding-20: 20px;
+$padding-30: 30px;
+
+$margin-10: 10px;
+
+// Border
+
+$noBorder: none;
