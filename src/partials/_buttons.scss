@@ -1,0 +1,17 @@
+.btn-bg-black {
+    @include btnBig;
+    border: 2px solid $colorBlack;
+    &:hover {
+        opacity: 0.85;
+    }
+}
+
+.btn-bg-none {
+    @include btnBig;
+    border: 2px solid $colorBlack;
+    background-color: $colorNone;
+    color: $colorBlack;
+    &:hover {
+        opacity: 0.85;
+    }
+}
