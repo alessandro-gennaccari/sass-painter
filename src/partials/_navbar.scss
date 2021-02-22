@@ -14,16 +14,52 @@
         li {
             padding: 0 $padding-30;
             line-height: $headerBottomHeight;
+            position: relative;
             &:hover {
                 background-color: $coloLightGray;
                 cursor: pointer;
                 a {
                     color: $colorBlack;
                 }
+                ul {
+                    display: block;
+                }
             }
             a {
                 font-size: 14px;
                 color: $colorWhite;
+                i {
+                    font-size: 10px;
+                }
+            }
+            ul {
+                flex-direction: column;
+                background-color: $coloLightGray;
+                position: absolute;
+                top: 55px;
+                left: 0;
+                z-index: 1;
+                display: none;
+                li {
+                    position: relative;
+                    width: $dropdownWidth;
+                    a {
+                        color: $colorBlack;
+                        i {
+                            position: absolute;
+                            right: 15px;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            font-size: 13px;
+                        }
+                    }
+                    &:hover {
+                        background-color: $colorGray;
+                        i {
+                            color: $coloLightGray;
+                        }
+                    }
+                }
             }
         }
     }

@@ -97,6 +97,7 @@ header .header-bottom {
 .navbar ul li {
   padding: 0 30px;
   line-height: calc(100px - 45px);
+  position: relative;
 }
 .navbar ul li:hover {
   background-color: #f1f1f1;
@@ -105,9 +106,44 @@ header .header-bottom {
 .navbar ul li:hover a {
   color: #000;
 }
+.navbar ul li:hover ul {
+  display: block;
+}
 .navbar ul li a {
   font-size: 14px;
   color: #fff;
+}
+.navbar ul li a i {
+  font-size: 10px;
+}
+.navbar ul li ul {
+  flex-direction: column;
+  background-color: #f1f1f1;
+  position: absolute;
+  top: 55px;
+  left: 0;
+  z-index: 1;
+  display: none;
+}
+.navbar ul li ul li {
+  position: relative;
+  width: 200px;
+}
+.navbar ul li ul li a {
+  color: #000;
+}
+.navbar ul li ul li a i {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 13px;
+}
+.navbar ul li ul li:hover {
+  background-color: #989898;
+}
+.navbar ul li ul li:hover i {
+  color: #f1f1f1;
 }
 
 .btn-bg-black {
