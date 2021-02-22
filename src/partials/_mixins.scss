@@ -11,3 +11,13 @@
     align-items: $align;
     flex-direction: $direction;
 }
+
+@mixin btnBig {
+    padding: $padding-10 $padding-30;
+    background-color: $colorBlack;
+    color: $colorWhite;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+}
