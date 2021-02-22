@@ -1,10 +1,13 @@
 //Colors
 
+$colorNone: transparent;
 $colorBlack: #000;
 $colorGray: #989898;
 $coloLightGray: #f1f1f1;
 $colorOceanBlue: #009cff;
 $colorWhite: #fff;
+$colorWhite-06: rgba(255, 255, 255, 0.6);
+$colorPurple: #c70cb9;
 
 
 // Height - Width
@@ -15,6 +18,9 @@ $headerTopHeight: 45px;
 $headerBottomHeight: calc(#{$headerHeight} - #{$headerTopHeight});
 
 $navbarImgHeight: 30px;
+$jumbotronImgHeight: 55px;
+
+$jumbotronTitleWidht: 45%;
 
 
 // Padding - Margin
@@ -22,8 +28,12 @@ $navbarImgHeight: 30px;
 $padding-10: 10px;
 $padding-20: 20px;
 $padding-30: 30px;
+$padding-40: 40px;
+$padding-50: 50px;
 
 $margin-10: 10px;
+$margin-20: 20px;
+$margin-30: 30px;
 
 // Border
 

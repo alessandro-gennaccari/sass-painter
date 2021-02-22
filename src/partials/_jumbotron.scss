@@ -1,0 +1,38 @@
+.jumbotron {
+    background-image: url('../img/bg-painter-home.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    .author {
+        position: absolute;
+        bottom: 20px;
+        right: 30px;
+        font-size: 12px;
+        color: $colorWhite-06;
+    }
+
+    @include container;
+    padding: $padding-30 0 $padding-40 0;
+        .title {
+            padding: $padding-50 0;
+            width: $jumbotronTitleWidht;
+            img {
+                height: $jumbotronImgHeight;
+            }
+            h1 {
+                font-weight: normal;
+                font-size: 22px;
+                margin-top: $margin-20;
+                margin-bottom: $margin-30;
+            }
+            .sale {
+                color: $colorPurple;
+                font-size: 17px;
+                font-style: italic;
+                margin-bottom: $margin-30;
+            }
+            button {
+                margin-right: $margin-30;
+            }
+        }
+}
