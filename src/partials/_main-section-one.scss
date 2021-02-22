@@ -1,0 +1,52 @@
+#more {
+    @include container;
+        .title {
+            font-size: 35px;
+            font-weight: normal;
+            text-align: center;
+            padding: $padding-30;
+        }
+        .cards {
+            @include flex;
+            .card {
+                flex-basis: 33%;
+                padding: 0 $padding-10;
+                .relative {
+                    position: relative;
+                    img {
+                        width: $widthFather;
+                    }
+                    .artist {
+                        position: absolute;
+                        bottom: 12px;
+                        right: 15px;
+                        font-size: 12px;
+                        color: $colorWhite-06;
+                    }
+                }
+                .content {
+                    padding: $padding-20;
+                    span {
+                        color: $colorOceanBlue;
+                        text-transform: uppercase;
+                        font-style: italic;
+                        margin-right: $margin-10;
+                    }
+                    p {
+                        font-size: 17px;
+                        margin: $margin-20 0;
+                    }
+                    a {
+                        color: $colorOceanBlue;
+                        font-size: 16px;
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+}
