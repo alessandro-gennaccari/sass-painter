@@ -217,6 +217,9 @@ header .header-bottom {
   margin-right: 30px;
 }
 
+#more {
+  padding-bottom: 50px;
+}
 #more .container {
   max-width: 1300px;
   margin: auto;
@@ -274,6 +277,98 @@ header .header-bottom {
 }
 #more .cards .card:hover {
   cursor: pointer;
+}
+
+#preview .container {
+  max-width: 1300px;
+  margin: auto;
+}
+#preview .row {
+  height: 325px;
+}
+#preview .row h2 {
+  font-size: 30px;
+}
+#preview .row p {
+  width: 95%;
+  font-size: 20px;
+  margin: 30px 0;
+  padding-bottom: 20px;
+}
+#preview .row a {
+  border: none;
+  background-color: #fff;
+  font-size: 17px;
+}
+#preview .row .wacom-painter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 100%;
+}
+#preview .row .wacom-painter .box-content {
+  height: 100%;
+  width: 50%;
+  background-color: #3c1567;
+  color: #fff;
+  padding: 50px;
+}
+#preview .row .wacom-painter .box-img {
+  height: 100%;
+  width: 50%;
+  background-image: url("../img/wacom-painter-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-left: 10px;
+}
+#preview .row .wacom-painter .box-img img {
+  width: 80%;
+  height: auto;
+}
+#preview .row .painter-masters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 100%;
+}
+#preview .row .painter-masters .box-content {
+  height: 100%;
+  width: 50%;
+  background-color: #3c3c3c;
+  color: #fff;
+  padding: 50px;
+}
+#preview .row .painter-masters .box-img {
+  height: 100%;
+  width: 50%;
+  background-image: url("../img/painter-master.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-left: 10px;
+}
+#preview .row .business {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 100%;
+}
+#preview .row .business .box-content {
+  height: 100%;
+  width: 50%;
+  background-color: #0072bc;
+  color: #fff;
+  padding: 50px;
+}
+#preview .row .business .box-img {
+  height: 100%;
+  width: 50%;
+  background-image: url("../img/business-education.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-left: 10px;
 }
 
 footer .nav-footer {
@@ -362,6 +457,9 @@ footer .nav-footer .social span.rss {
 }
 .credits .copyright .logo img {
   margin-right: 20px;
+}
+.credits .copyright .logo img:hover {
+  cursor: pointer;
 }
 .credits .copyright .copy {
   display: flex;

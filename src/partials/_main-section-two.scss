@@ -1,0 +1,81 @@
+#preview {
+    @include container;
+    .row {
+        height: 325px;
+        h2 {
+            font-size: 30px;
+        }
+        p {
+            width: $width-95;
+            font-size: 20px;
+            margin: $margin-30 0;
+            padding-bottom: $padding-20;
+        }
+        a {
+            border: $noBorder;
+            background-color: $colorWhite;
+            font-size: 17px;
+        }
+        .wacom-painter {
+            @include flex();
+            height: $heightFather;
+            .box-content {
+                height: $heightFather;
+                width: $widthHalf;
+                background-color: $colorDarkPurple;
+                color: $colorWhite;
+                padding: $padding-50;
+            }
+            .box-img {
+                height: $heightFather;
+                width: $widthHalf;
+                background-image: url('../img/wacom-painter-bg.jpg');
+                background-size: cover;
+                background-position: center;
+                padding-left: $padding-10;
+                img {
+                    width: 80%;
+                    height: auto;
+                }
+            }
+        }
+        .painter-masters {
+            @include flex();
+            height: $heightFather;
+            .box-content {
+                height: $heightFather;
+                width: $widthHalf;
+                background-color: $colorGrayMain;
+                color: $colorWhite;
+                padding: $padding-50;
+            }
+            .box-img {
+                height: $heightFather;
+                width: $widthHalf;
+                background-image: url('../img/painter-master.jpg');
+                background-size: cover;
+                background-position: center;
+                padding-left: $padding-10;
+            }
+        }
+        .business {
+            @include flex();
+            height: $heightFather;
+            .box-content {
+                height: $heightFather;
+                width: $widthHalf;
+                background-color: $colorDarkOceanBlue;
+                color: $colorWhite;
+                padding: $padding-50;
+            }
+            .box-img {
+                height: $heightFather;
+                width: $widthHalf;
+                background-image: url('../img/business-education.jpg');
+                background-size: cover;
+                background-position: center;
+                padding-left: $padding-10;
+            }
+        }
+    }
+}
