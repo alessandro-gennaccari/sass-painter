@@ -7,6 +7,9 @@
             .logo {
                 img {
                     margin-right: $margin-20;
+                    &:hover {
+                        cursor: pointer;
+                    }
                 }
             }
             .copy {
